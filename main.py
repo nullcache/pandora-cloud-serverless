@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+import sys
+sys.path.insert(0, './')
+
 from os import getenv
 
 from pandora_cloud.server import ChatBot
